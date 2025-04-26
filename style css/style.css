@@ -1,0 +1,109 @@
+/* Estilos personalizados para PixelPleto */
+
+body {
+    font-family: 'Press Start 2P', cursive; /* Fuente principal */
+    font-size: 16px; /* Tamaño de fuente base para el body */
+}
+
+h2 { /* Título principal "Explora Nuestras Categorías" */
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem; /* Espacio debajo del título */
+}
+
+.card-title { /* Títulos de las categorías (Acción, Aventura, RPG) */
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text { /* Descripción de las categorías */
+    font-size: 0.9rem; /* Un poco más pequeño para la descripción */
+    line-height: 1.4; /* Mejora la legibilidad de bloques de texto */
+}
+
+.bg-dark {
+    background-color: #212529 !important;
+}
+
+#categorias-principales {
+    margin-bottom: 30px; /* Espacio entre las categorías y el footer */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem; /* Tamaño estándar para los enlaces de navegación */
+}
+
+.categoria-accion .card-body,
+.categoria-aventura .card-body,
+.categoria-rpg .card-body {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1.25rem; /* Equivalente a 20px en tamaño de fuente base */
+    border-radius: 5px;
+}
+
+/* Estilo para la sección de Acción */
+.categoria-accion {
+    background-image: url('../img/accion.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.categoria-accion .card-title,
+.categoria-accion .card-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilo para la sección de Aventura */
+.categoria-aventura {
+    background-image: url('../img/aventura.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.categoria-aventura .card-title,
+.categoria-aventura .card-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Estilo para la sección de RPG */
+.categoria-rpg {
+    background-image: url('../img/rpg.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.categoria-rpg .card-title,
+.categoria-rpg .card-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.btn-primary {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+
+}
+
+/*
+.row > div {
+    width: 100%;
+    display: block;
+}
+*/
+
+/*.juego-card-horizontal {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 15px;
+}
+
+.juego-card-horizontal:last-child {
+    margin-right: 0;
+}*/
